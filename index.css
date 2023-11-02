@@ -1,0 +1,153 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    font-family: inherit;
+    border: none;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.row {
+    margin-top: 102px;
+    display: flex;
+    gap: 100px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.post-title-input {
+    padding: 11px 0px 10px 20px;
+    display: block;
+    width: 500px;
+    height: 60px;
+    font-size: 32px;
+
+}
+
+.post-title-input::placeholder {
+    font-weight: 400;
+    color: #979797;
+}
+
+.post-text-input {
+    padding: 11px 0px 200px 20px;
+    display: block;
+    width: 500px;
+    height: 250px;
+    font-size: 32px;
+}
+
+.post-text-input::placeholder {
+    font-weight: 400;
+    color: #979797;
+}
+
+.new-post-btn {
+    width: 300px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #FFF;
+    background-color: #0094FF;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+
+.post__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    color: #000;
+}
+
+.post__text {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+
+.posts__g {
+    color: #979797;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+.post {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 500px;
+}
+
+.post__date {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #0094FF;
+}
+
+.post__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+.post__text {
+    word-wrap: break-word;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+
+.validationMessage {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #F00;
+}
+
+.validationMessage_hidden {
+    display: none;
+}
+
+.titleLongMessage,
+.textLongMessage {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #000;
+}
+
+.longMessage_red {
+    color: #F00;
+}
+
+.longMessage_hidden {
+    display: none;
+}
