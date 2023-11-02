@@ -46,16 +46,12 @@ h2 {
 }
 
 .post-text-input {
-    padding: 11px 0px 200px 20px;
-    display: block;
+    border-radius: 5px;
+    border: 2px solid black;
     width: 500px;
     height: 250px;
     font-size: 32px;
-}
-
-.post-text-input::placeholder {
-    font-weight: 400;
-    color: #979797;
+    resize: none;
 }
 
 .new-post-btn {

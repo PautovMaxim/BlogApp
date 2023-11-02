@@ -141,7 +141,15 @@ input {
     border-radius: 5px;
 }
 
+textarea {
+    box-sizing: border-box;
+}
+
 input:focus {
+    outline: none;
+}
+
+textarea:focus {
     outline: none;
 }
 
